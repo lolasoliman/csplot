@@ -1,4 +1,4 @@
-# csplot - Graphing the curse of dimensionality in Stata
+# csplot/csperc Stata module
 
 ## Install
 
