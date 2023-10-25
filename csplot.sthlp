@@ -12,6 +12,10 @@
 	{cmd:csplot} {help varname:indepvar} , xvars({help varname:varlist})
 {p_end}
 
+{phang}
+	{cmd:csperc} {help varname:indepvar} , xvars({help varname:varlist})
+{p_end}
+
   where {it:indepvar} is the treatment-variable.
 
 
@@ -23,9 +27,13 @@
 {pstd}
 declining with each consecutively added control variable out of {it:varlist}.
 {p_end}
-
 {pstd}
 The results are also returned in the matrix {it:r(results)}.
+{p_end}
+
+{pstd}
+  {cmd:csperc} calculates common support and returns the result in {it:r(cs_perc)}.
+{p_end}
 
 
 {title:Examples}
@@ -36,6 +44,7 @@ The results are also returned in the matrix {it:r(results)}.
 {pstd}
 (1978 Automobile Data)
 {p_end}
+
 {phang}
 {cmd:. csplot foreign, xvars(mpg rep78 trunk headroom)}
 
@@ -45,6 +54,7 @@ The results are also returned in the matrix {it:r(results)}.
 {pstd}
 This program was inspired by a conversation with Maik Hamjediers (HU Berlin).
 {p_end}
+
 {pstd}
 Thanks, Maik ;-)
 

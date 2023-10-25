@@ -1,3 +1,9 @@
+// csplot - Graphing the curse of dimensionality in Stata
+
+// Author: Omar Soliman (Humboldt-Universität zu Berlin)
+// Date: 2023 10 25
+// Version: 1.0
+
 ** Common Support Werte als Returns
 cap program drop csperc
 program define csperc, rclass

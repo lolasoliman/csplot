@@ -1,0 +1,8 @@
+v 1.0
+d Materials by Omar Soliman
+d Department of social sciences, Humboldt-Universität zu Berlin
+d omar.soliman@hu-berlin.de
+
+d 'csplot': csplot - Graphing the curse of dimensionality in Stata
+
+p csplot

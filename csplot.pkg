@@ -1,3 +1,10 @@
-csplot.ado
-csplot.sthlp
-csplot.toc
+v 1.0
+d 'CSPLOT': csplot
+d 
+d csplot - Graphing the curse of dimensionality in Stata
+d 
+d Distribution-Date:   20231025
+d License: GNU General Public License v3.0
+d 
+F csplot.ado
+F csplot.sthlp
