@@ -1,4 +1,6 @@
 # csplot/csperc Stata module
+Plot common support declining with each new variable added with csplot.
+Get common support for a model as a return with csperc.
 
 ## Install
 
