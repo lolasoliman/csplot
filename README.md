@@ -6,5 +6,5 @@ Get common support for a model as a return with csperc.
 ## Install
 
 ```bash
-net install csplot, from("https://raw.githubusercontent.com/lolasoliman/csplot/main/")
+net install csplot, from("https://raw.githubusercontent.com/lolasoliman/csplot/main/") replace
 ```
