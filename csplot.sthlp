@@ -8,23 +8,23 @@
 
 {title:Syntax}
 
-{phang}
-	{cmd:csplot} {help varname:indepvar} , xvars({help varname:varlist})
+{phang2}
+	{cmd:csplot} {help varname:indepvar} , xvars({help varname:varlist}) [{it:{help twoway_options:twoway_options}}]
 {p_end}
 
-{phang}
+{phang2}
 	{cmd:csperc} {help varname:indepvar} , xvars({help varname:varlist})
 {p_end}
 
-  where {it:indepvar} is the treatment-variable.
+{pstd}
+  where {it:indepvar} is the treatment-variable and {it:varlist} are the control variables.
+{p_end}
 
 
 {title:Description}
 
 {pstd}
 {cmd:csplot} simply plots the amount of common support,
-{p_end}
-{pstd}
 declining with each consecutively added control variable out of {it:varlist}.
 {p_end}
 {pstd}
@@ -32,9 +32,8 @@ The results are also returned in the matrix {it:r(results)}.
 {p_end}
 
 {pstd}
-  {cmd:csperc} calculates common support and returns the result in {it:r(cs_perc)}.
+  {cmd:csperc} calculates common support and returns the result in {it:r(cs_perc)}. (Might help someone as there was no easy way to do that before.)
 {p_end}
-
 
 {title:Examples}
 

@@ -3,7 +3,7 @@
 // DO NOT FORGET to update the version of the package, if changed!
 // for more information visit http://github.com/haghish/github
 
-make csplot, replace toc pkg  version(1.0)                                   ///
+make csplot,  toc pkg  version(1.0)                                          ///
      license("GNU General Public License v3.0")                              ///
      author("Omar Soliman")                                                  ///
      affiliation("Department of social sciences, Humboldt-Universität zu Berlin") ///
@@ -11,5 +11,5 @@ make csplot, replace toc pkg  version(1.0)                                   ///
      url("")                                                                 ///
      title("csplot")                                                         ///
      description("csplot - Graphing the curse of dimensionality in Stata")   ///
-     install("csplot.ado;csplot.sthlp")                                      ///
+     install("csperc.ado;csplot.ado;csplot.sthlp")                           ///
      iancillary("")                                                         
